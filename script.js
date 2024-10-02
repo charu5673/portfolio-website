@@ -44,13 +44,13 @@ function rs()
         p.style.gridTemplateColumns="1fr 1fr";
         p.style.gridTemplateRows="1fr 1fr 1fr";
         pd.forEach(i=>{
-            i.style.fontSize=4/r/5+"rem";
+            i.style.fontSize=60/r/5+"px";
         })
         pt.forEach(i=>{
-            i.style.fontSize=6/r/5+"rem";
+            i.style.fontSize=100/r/5+"px";
         })
         pr.forEach(i=>{
-            i.style.height="20vh";
+            i.style.height="30vh";
         })
     }
     else
@@ -60,10 +60,10 @@ function rs()
         p.style.gridTemplateColumns="1fr";
         p.style.gridTemplateRows="1fr 1fr 1fr 1fr 1fr";
         pd.forEach(i=>{
-            i.style.fontSize=r/2.5+"rem";
+            i.style.fontSize=50/r/2.5+"px";
         })
         pt.forEach(i=>{
-            i.style.fontSize=4/r/2.5+"rem";
+            i.style.fontSize=60/r/2.5+"px";
         })
         pr.forEach(i=>{
             i.style.height="30vh";
