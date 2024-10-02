@@ -1,0 +1,161 @@
+@font-face {
+    font-family: nexa;
+    src: url(./assets/Nexa-Heavy.ttf);
+}
+
+@font-face {
+    font-family: nexa-light;
+    src: url(./assets/Nexa-ExtraLight.ttf);
+}
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: nexa;
+}
+
+.top
+{
+    font-size: 1rem;
+    background-color: rgb(180, 182, 193);
+    color:rgb(29, 30, 31);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+a
+{
+    text-decoration: none;
+    color:aliceblue;
+}
+
+.project_timeline
+{
+    font-size: 0.7em;
+}
+
+.top p
+{
+    color: rgb(44, 45, 46);
+    font-size: 0.8rem;
+}
+
+.titles
+{
+    display: flex;
+    gap:10px;
+}
+
+.top .links
+{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.top img
+{
+    height: clamp(10px,5vh,5vh);
+    width: auto;
+    border-radius: 5px;
+}
+
+.projects
+{
+    display: grid;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    gap:3vh;
+}
+
+.projects .project
+{
+    background-color: rgb(44, 45, 46);
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    color: rgb(190, 198, 205);
+    height: 30vh;
+    gap:20px;
+}
+
+.project_title
+{
+    font-size: 1rem;
+}
+
+.projects_p
+{
+    font-size: 2rem;
+    padding: 20px;
+}
+
+.project_description
+{
+    font-size: 0.8rem;
+    font-family: nexa-light;
+    font-weight: bold;
+}
+
+.project_left
+{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.project_right
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project_left img
+{
+    height: 15vh;
+    width: auto;
+    border-radius: 5px;
+}
+
+.project_tools img
+{
+    width: auto;
+    height: 5vh;
+}
+
+#dialog
+{
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    z-index: 20;
+    background-color: #0000004f;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#dialog p
+{
+    width: 60vw;
+    background-color: aliceblue;
+    border: 2px solid rgb(29, 30, 31);
+    color:rgb(29, 30, 31);
+    border-radius: 5px;
+    padding:20px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.outer_box
+{
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid rgb(29, 30, 31);
+    border-radius: 5px;
+}
