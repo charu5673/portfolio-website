@@ -6,6 +6,7 @@ let t=document.querySelector(".top");
 let p=document.querySelector(".projects");
 let pd=document.querySelectorAll(".project_description");
 let pt=document.querySelectorAll(".project_title");
+let pr=document.querySelectorAll(".project");
 let hm,wm,h,r;
 rs();
 
@@ -48,6 +49,9 @@ function rs()
         pt.forEach(i=>{
             i.style.fontSize=6/r/5+"rem";
         })
+        pr.forEach(i=>{
+            i.style.height="20vh";
+        })
     }
     else
     {
@@ -60,6 +64,9 @@ function rs()
         })
         pt.forEach(i=>{
             i.style.fontSize=4/r/2.5+"rem";
+        })
+        pr.forEach(i=>{
+            i.style.height="30vh";
         })
     }
 }
